@@ -4,14 +4,13 @@
 }
 button{
   
-  margin-right: 50vh;
-  margin-left: 50vh;
+  cursor: pointer;
   font-size: 4rem;
   border: red 3px solid;
 }
 
 h1{
-    font-size: 72px;
+    font-size: 68px;
     text-align: center;
     color: rgb(6, 247, 247);
 
@@ -44,7 +43,7 @@ div {
   }
   #timer{
       display: flexbox;
-      border-spacing: 15px;
+      border-spacing: 10px;
       align-items: center;
       align-items: flex-end;  }
   
@@ -55,16 +54,16 @@ div {
   }
   
   #days{
-    font-size: 100px;
+    font-size: 75px;
     color:yellowgreen;
     justify-items: center;
   }
   #hours{
-    font-size: 100px;
+    font-size: 75px;
     color: yellowgreen;
   }
   #minutes{
-    font-size: 100px;
+    font-size: 75px;
     color: yellowgreen;
   }
   #seconds{

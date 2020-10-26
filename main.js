@@ -11,7 +11,7 @@ $("#reveal").click(clicked)
 function makeTimer() {	
 
 
-		let endTime =new Date("27 October 2020 22:30 GMT");			
+		let endTime =new Date("26 October 2020 16:45 GMT");			
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
