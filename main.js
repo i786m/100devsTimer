@@ -11,7 +11,7 @@ $("#reveal").click(clicked)
 function makeTimer() {	
 
 
-		let endTime =new Date("22 October 2020 23:30 GMT+01:00");			
+		let endTime =new Date("27 October 2020 22:30 GMT");			
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
@@ -67,8 +67,11 @@ function makeTimer() {
             	$("#seconds").remove();
             	$(".imgSmall").remove()
 			
-				// let reveal=img+img+img+img+img+img+img+img+img+img+img+img+"<h2>#100DEVS click <a href='https://www.twitch.tv/learnwithleon'>here</a>!!!</h2>"+img+img+img+img+img+img+img+img+img+img+img+img
-				let reveal=img+img+img+img+img+img+img+img+img+img+img+img+"<h1> Click on your respective houses <a href='https://icebreaker.video/events/ex9Wzbp5qPb3Dhr5osF2'>TURING 8:00pm EST </a><br><a href='https://icebreaker.video/events/U3aXEZDAGhRw1Tjc7pIs'>HOPPER 7:15pm EST</a><br><a href='https://icebreaker.video/events/U9BmGUHBO4Q5HMDhGDEP'>HAMILTON(max 200) 6:30pm EST </a>!!!</h2>"
+				//main class link
+				let reveal=img+img+img+img+img+img+img+img+img+img+img+img+"<h2>#100DEVS click <a href='https://www.twitch.tv/learnwithleon'>here</a>!!!</h2>"+img+img+img+img+img+img+img+img+img+img+img+img
+
+				//alternate links
+				// let reveal=img+img+img+img+img+img+img+img+img+img+img+img+"<h1> Click on your respective houses <a href='https://icebreaker.video/events/ex9Wzbp5qPb3Dhr5osF2'>TURING 8:00pm EST </a><br><a href='https://icebreaker.video/events/U3aXEZDAGhRw1Tjc7pIs'>HOPPER 7:15pm EST</a><br><a href='https://icebreaker.video/events/U9BmGUHBO4Q5HMDhGDEP'>HAMILTON(max 200) 6:30pm EST </a>!!!</h2>"
 				
 				$("h1").html(reveal)
 			};
