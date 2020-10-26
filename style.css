@@ -1,0 +1,94 @@
+*{
+    
+    background-color: black;
+}
+button{
+  
+  margin-right: 50vh;
+  margin-left: 50vh;
+  font-size: 4rem;
+  border: red 3px solid;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+    color: rgb(6, 247, 247);
+
+}
+#reveal{
+  text-align: center;
+  cursor: pointer;
+  color: red;
+  text-decoration: seashell;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.reveal{
+  text-align: center;
+}
+
+div {
+    display: inline-table;
+    line-height: 1;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    align-self: stretch;
+    margin: 5px;
+    padding: auto;
+    visibility: hidden;
+  }
+  #timer{
+      display: flexbox;
+      border-spacing: 15px;
+      align-items: center;
+      align-items: flex-end;  }
+  
+  span {
+    display: block;
+    font-size: 30px;
+    color: red;
+  }
+  
+  #days{
+    font-size: 100px;
+    color:yellowgreen;
+    justify-items: center;
+  }
+  #hours{
+    font-size: 100px;
+    color: yellowgreen;
+  }
+  #minutes{
+    font-size: 100px;
+    color: yellowgreen;
+  }
+  #seconds{
+    font-size: 50px;
+    color: yellowgreen;
+  }
+
+  img {
+    animation: blink-animation 1s steps(5, start) infinite;
+
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;}
+    }
+  a{
+    cursor: pointer;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+  }
