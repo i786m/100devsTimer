@@ -1,6 +1,11 @@
 function loaded(){
+//notification
+Notification.requestPermission()
+
+
+//original	
 	$("#timer").css("visibility","hidden")
-	alert("Welcome To The #100DEVS Class Reminder!\n\n I Will Be Updating This For Each Of The Sessions Throughout The Bootcamp! \n\n Created by Imran Mohamed")
+	alert("Welcome To The #100DEVS Class Reminder! \n\n Please allow notifications to get 10 and 5 minute warning and you should hear an audible warning at the 2 minute marker, assuming you have the  countdown open\n\n Created by Imran Mohamed")
 
 	function clicked(){
 		$("div").css("visibility", "visible");
@@ -33,6 +38,17 @@ function makeTimer() {
 			$("#minutes").html(minutes + "<span>Minutes</span>");
 			$("#seconds").html(seconds + "<span>Seconds</span>");	
 			
+			if(timeLeft===600){
+				let notification = new Notification("Hi there class starts in 10 minutes!");
+				Notification.requireInteraction = true;
+			}
+			if(timeLeft===300){
+				let notification = new Notification("Hi there class starts in 5 minutes!");
+				 Notification.requireInteraction = true;
+			}
+			
+
+
 			if(timeLeft<=121&&timeLeft>120){
 				let audio = new Audio("bensound-scifi.mp3");
 				audio.loop = true;
@@ -44,6 +60,7 @@ function makeTimer() {
 				}
 			if(timeLeft===5){ 
 					$("h1").text('runUpload()');
+					nonPersistentNotification() ;
 				}
 
 			if(timeLeft===4){
