@@ -13,10 +13,16 @@ function loaded(){
 }
 $("#reveal").click(clicked)
 
+// // classDates
+// 	"31 October 2020 17:00 GMT"
+// 	"5 Novemeber 2020 23:30 GMT"
+// "7 November 2020 17:00 GMT"
+
+
 function makeTimer() {	
 
 
-		let endTime =new Date("27 October 2020 22:30 GMT");			
+		let endTime =new Date("29 October 2020 22:30 GMT");			
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
@@ -60,7 +66,7 @@ function makeTimer() {
 				}
 			if(timeLeft===5){ 
 					$("h1").text('runUpload()');
-					nonPersistentNotification() ;
+					
 				}
 
 			if(timeLeft===4){
@@ -85,7 +91,7 @@ function makeTimer() {
             	$(".imgSmall").remove()
 			
 				//main class link
-				let reveal=img+img+img+img+img+img+img+img+img+img+img+img+"<h2><a href='https://www.twitch.tv/learnwithleon'>Click here for #100DEVS class!!! </a></h2>"+img+img+img+img+img+img+img+img+img+img+img+img
+				let reveal=img+"Check in on twitter!!"+img+"<h2><a href='https://www.twitch.tv/learnwithleon'>Click here for #100DEVS class!!! </a></h2>"
 
 				//alternate links
 				// let reveal=img+img+img+img+img+img+img+img+img+img+img+img+"<h1> Click on your respective houses <a href='https://icebreaker.video/events/ex9Wzbp5qPb3Dhr5osF2'>TURING 8:00pm EST </a><br><a href='https://icebreaker.video/events/U3aXEZDAGhRw1Tjc7pIs'>HOPPER 7:15pm EST</a><br><a href='https://icebreaker.video/events/U9BmGUHBO4Q5HMDhGDEP'>HAMILTON(max 200) 6:30pm EST </a>!!!</h2>"
@@ -96,4 +102,6 @@ function makeTimer() {
 
 	
     setInterval(function() { makeTimer(); }, 1000);
-		}
+
+		
+}
