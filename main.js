@@ -12,17 +12,48 @@ function loaded(){
 		$("#reveal").remove()
 }
 $("#reveal").click(clicked)
-
-// // classDates
-// 	"31 October 2020 17:00 GMT"
-// 	
-// "7 November 2020 17:00 GMT"
-
-
+/*
+ classDates
+ "19 November 2020 23:30 GMT"
+ "21 November 2020 17:00 GMT"
+ "24 November 2020 23:30 GMT"
+ "26 November 2020 23:30 GMT"
+ "28 November 2020 17:30 GMT"
+ "1 December 2020 23:30 GMT"
+ "3 December 2020 23:30 GMT"
+ "5 December 2020 17:30 GMT"
+ "8 December 2020 23:30 GMT"
+ "10 December 2020 23:30 GMT"
+ "12 December 2020 17:30 GMT"
+ "15 December 2020 23:30 GMT"
+ "17 December 2020 23:30 GMT"
+ "19 December 2020 17:30 GMT"
+ "22 December 2020 23:30 GMT"
+ "24 December 2020 23:30 GMT"
+ "26 December 2020 17:30 GMT"
+ "29 December 2020 23:30 GMT"
+ "31 December 2020 23:30 GMT"
+ "2 January 2021 17:30 GMT"
+ "5 January 2021 23:30 GMT"
+ "7 January 2021 23:30 GMT"
+ "9 January 2021 17:30 GMT"
+ "12 January 2021 23:30 GMT"
+ "14 January 2021 23:30 GMT"
+ "16 January 2021 17:30 GMT"
+ "19 January 2021 23:30 GMT"
+ "21 January 2021 23:30 GMT"
+ "23 January 2021 17:30 GMT"
+ "26 January 2021 23:30 GMT"
+ "28 January 2021 23:30 GMT"
+ "30 January 2021 17:30 GMT"
+ 
+*/
 function makeTimer() {	
 
 
-		let endTime =new Date("12 Novemeber 2020 23:30 GMT");			
+
+		let endTime =new Date("17 Novemeber 2020 23:30 GMT");					
+
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
