@@ -14,12 +14,7 @@ function loaded(){
 $("#reveal").click(clicked)
 /*
  classDates
- "19 November 2020 23:30 GMT"
- "21 November 2020 17:00 GMT"
- "24 November 2020 23:30 GMT"
- "26 November 2020 23:30 GMT"
- "28 November 2020 17:30 GMT"
- "1 December 2020 23:30 GMT"
+
  "3 December 2020 23:30 GMT"
  "5 December 2020 17:30 GMT"
  "8 December 2020 23:30 GMT"
@@ -50,7 +45,7 @@ $("#reveal").click(clicked)
 */
 function makeTimer() {	
 
-		let endTime =new Date("28 November 2020 17:30 GMT");			
+		let endTime =new Date("1 December 2020 23:30 GMT");			
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
