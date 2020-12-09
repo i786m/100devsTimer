@@ -17,17 +17,10 @@ $("#reveal").click(clicked)
 
  "3 December 2020 23:30 GMT"
  "5 December 2020 17:30 GMT"
- 
- "10 December 2020 23:30 GMT"
  "12 December 2020 17:30 GMT"
  "15 December 2020 23:30 GMT"
  "17 December 2020 23:30 GMT"
  "19 December 2020 17:30 GMT"
- "22 December 2020 23:30 GMT"
- "24 December 2020 23:30 GMT"
- "26 December 2020 17:30 GMT"
- "29 December 2020 23:30 GMT"
- "31 December 2020 23:30 GMT"
  "2 January 2021 17:30 GMT"
  "5 January 2021 23:30 GMT"
  "7 January 2021 23:30 GMT"
@@ -45,7 +38,7 @@ $("#reveal").click(clicked)
 */
 function makeTimer() {	
 
-		let endTime =new Date("8 December 2020 23:30 GMT");			
+		let endTime =new Date("10 December 2020 23:30 GMT");			
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
