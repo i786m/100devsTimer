@@ -5,7 +5,9 @@ function loaded(){
 
 //original	
 	$("#timer").css("visibility","hidden")
-	alert("Welcome To The #100DEVS Class Reminder! \n\n There should be an audible warning at 2 minutes before the class starts please let me know if this isnt the case\n\n Created by Imran Mohamed")
+	// alert("Welcome To The #100DEVS Class Reminder! \n\n There should be an audible warning at 2 minutes before the class starts please let me know if this isnt the case\n\n Created by Imran Mohamed")
+
+	alert("Welcome To The #100DEVS Homework countdown of doom! \n\n There should be an audible warning at 2 minutes before the first class of january to remind you that if you havent got your homework done ....well..you ducked up(But it aint the end of the world)\n\n Created by Imran Mohamed")
 
 	function clicked(){
 		$("div").css("visibility", "visible");
@@ -21,7 +23,7 @@ $("#reveal").click(clicked)
  "15 December 2020 23:30 GMT"
  "17 December 2020 23:30 GMT"
  "19 December 2020 17:30 GMT"
- "2 January 2021 17:30 GMT"
+
  "5 January 2021 23:30 GMT"
  "7 January 2021 23:30 GMT"
  "9 January 2021 17:30 GMT"
@@ -38,7 +40,7 @@ $("#reveal").click(clicked)
 */
 function makeTimer() {	
 
-		let endTime =new Date("19 December 2020 17:30 GMT");			
+		let endTime =new Date("5 January 2021 23:30 GMT");			
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
