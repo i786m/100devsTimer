@@ -40,7 +40,7 @@ $("#reveal").click(clicked)
 */
 function makeTimer() {	
 
-		let endTime =new Date("27 May 2021 16:30 GMT");			
+		let endTime =new Date("27 May 2021 16:00 GMT");			
 			endTime = (Date.parse(endTime) / 1000);
 
 			let now = new Date();
